@@ -31,10 +31,10 @@ public class Main {
         Animal ani = new Animal();
         ani.setName("Bob");
         Dog dog = new Dog();
-        dog.setName("Rubby"); // inherited method
+        dog.setName("Rubby"); // inherited method — setter from animal
         dog.setBreed("Corgi");
         dog.bark();
         System.out.println(ani.getName());
-        System.out.println(dog.getName());
+        System.out.println(dog.getName()); // inherited method — getter from animal
     }
 }
